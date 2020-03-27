@@ -29,10 +29,7 @@ public class ExcelUtil {
         sheet = workbook.getSheet(sheetName);
     }
 	
-    public void getSheet(int sheetNumber) {
-        sheet = workbook.getSheet(sheetNumber);
-    }
-    
+        
     public int getRowCount() {
         Iterator<Row> iterator = sheet.iterator();
         int rowCount = 0;
